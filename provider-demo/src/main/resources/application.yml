@@ -1,0 +1,9 @@
+server:
+  port: 8870
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8886/eureka/ #对应的注册中心的地址
+spring:
+  application:
+    name: provider-demo #应用程序名称

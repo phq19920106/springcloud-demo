@@ -1,0 +1,12 @@
+server:
+  port: 8878
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8886/eureka/
+
+spring:
+  application:
+    name: consumer-demo
+
